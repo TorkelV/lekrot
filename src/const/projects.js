@@ -1,13 +1,13 @@
 export const PROJECTS = [
     {
-        title: "ITNorge.net",
-        desc: ["A website utilizing 2.5 million job ads from nav.no in order to show technology trends in Norwegian companies."],
-        img: require("@/assets/itnorge.jpg"),
+        title: "Lekrot.no",
+        desc: ["This website."],
+        img: require("@/assets/lekrot.png"),
         url: 'https://lekrot.no',
         keywords: ['Vue.js', 'JavaScript', 'HTML', 'CSS'],
         links: [
             {
-                url: "https://github.com/TorkelV/itnorge",
+                url: "https://github.com/TorkelV/lekrot",
                 img: require("@/assets/github.png"),
             },
             {
