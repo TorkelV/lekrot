@@ -13,6 +13,8 @@ import Nav from "./components/Nav.vue";
 import resize from "vue-resize-directive";
 import {PROJECTS} from "./const/projects.js"
 
+console.log(r().split` `.map(e=>+e).sort((a,b)=>(u=(a>0?a:-a)-(b>0?b:-b))?u:b-a)[0][0])
+
 export default {
     name: "app",
     components: {
