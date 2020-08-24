@@ -1,5 +1,18 @@
 export const PROJECTS = [
     {
+        title: "Norwegian Baby Names",
+        desc: ["An Android app for finding Norwegian names."],
+        img: require("@/assets/babynames.png"),
+        url: 'https://play.google.com/store/apps/details?id=no.lekrot.babynames',
+        keywords: ['Android', 'Kotlin', 'Open Data'],
+        links: [
+            {
+                url: "https://play.google.com/store/apps/details?id=no.lekrot.babynames",
+                img: require("@/assets/gplay.png"),
+            }
+        ],
+    },    
+    {
         title: "Lekrot.no",
         desc: ["This website."],
         img: require("@/assets/lekrot.png"),
@@ -101,14 +114,14 @@ export const PROJECTS = [
         {
             title: "Flynn the Flying Squirrel",
             desc: ["Flynn lives in the tallest tree in the world, can you help him reach the ground?",
-                "Mobile game for android."],
+                "Mobile game for Android and iOS."],
             img: require("@/assets/flynn.jpg"),
             url: 'https://play.google.com/store/apps/details?id=com.torkel.flynnTheFlyingSquirrel&hl=en',
-            keywords: ['Unity', 'C#'],
+            keywords: ['Unity', 'C#', 'Android', 'iOS'],
             links: [
                 {
-                    url: "https://apkpure.com/flynn-the-flying-squirrel/com.torkel.flynnTheFlyingSquirrel",
-                    img: require("@/assets/apkpure.png"),
+                    url: "https://apps.apple.com/us/app/flynn-the-flying-squirrel/id1222088281?app=itunes&ign-mpt=uo%3D4",
+                    img: require("@/assets/appstore.png"),
                 },
                 {
                     url: "https://play.google.com/store/apps/details?id=com.torkel.flynnTheFlyingSquirrel&hl=en_GB",
@@ -121,7 +134,7 @@ export const PROJECTS = [
             desc: ["An app showing if it rains in Bergen or not."],
             img: require("@/assets/regnerdet.jpg"),
             url: 'https://play.google.com/store/apps/details?id=no.velure.torkel.regner_det_i_bergen',
-            keywords: ['Java', 'Android Studio', 'Open Data'],
+            keywords: ['Kotlin', 'Android Studio', 'Open Data'],
             links: [
                 {
                     url: "https://play.google.com/store/apps/details?id=no.velure.torkel.regner_det_i_bergen&hl=en",
@@ -210,7 +223,7 @@ export const PROJECTS = [
             links: [
                 {
                     url: "https://www.codewars.com/users/Torkel",
-                    img: require("@/assets/codewars_logo.png"),
+                    img: 'https://www.codewars.com/users/Torkel/badges/micro',
                 },
             ],
         },
